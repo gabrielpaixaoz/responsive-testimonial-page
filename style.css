@@ -56,10 +56,14 @@ div#google{
     width: 300px;
     padding: 10px 20px 10px;
     margin-bottom: 20px;
+    margin-left: 30vh;
+    margin-bottom: 30px;
+    
 }
 
 div#google > img{
     width: 20%;
+    
 }
 
 
@@ -73,3 +77,6 @@ div#meta > img{
     width: 20%;
 }
 
+aside{
+    background-color: #F5C044;
+}
