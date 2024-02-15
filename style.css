@@ -8,6 +8,11 @@
 
 body{
     background-color: #FAFAF9;
+    display: grid;
+    margin: 0;
+    min-height: 100dvh;
+    place-items: center;
+
 }
 
 main{
@@ -22,21 +27,21 @@ h1#mainStar{
 }
 
 
-article > h2{
+div.grid > h2{
     font-family: var(--font-global);
 }
 
-article > p{
+div.grid  > p{
     font-family: var(--font-global);
 }
 
-article > ul{
+div.grid  > ul{
     padding: 0px;
     font-family: var(--font-global);
     font-size: 13px;
 }
 
-article > ul > li{
+div.grid  > ul > li{
     list-style: none;
     list-style-type: none;
     margin-top: 13px;
@@ -51,7 +56,7 @@ article > ul > li{
             margin-right: 10px;
         }
 
-div#google{
+article#google{
     background-color: aqua;
     width: 300px;
     padding: 10px 20px 10px;
@@ -61,22 +66,29 @@ div#google{
     
 }
 
-div#google > img{
+article#google > img{
     width: 20%;
     
 }
 
 
-div#meta{
+article#meta{
     background-color: aqua;
     width: 300px;
+    height: 200;
     padding: 10px 20px 10px;
 }
 
-div#meta > img{
+article#meta > img{
     width: 20%;
 }
 
 aside{
     background-color: #F5C044;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 600px;
+    width: calc(100% - 3em);
 }
