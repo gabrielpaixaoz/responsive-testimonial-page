@@ -76,7 +76,8 @@ article#google{
     margin-bottom: 20px;
     margin-left: 30vh;
     margin-bottom: 30px;
-    
+    font-family: var(--font-global);
+
 }
 
 article#google > img{
@@ -92,6 +93,8 @@ article#meta{
     width: 300px;
     height: 200;
     padding: 10px 20px 10px;
+    font-family: var(--font-global);
+
 }
 
 article#meta > img{
